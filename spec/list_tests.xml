@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="http://check.sourceforge.net/xml/check_unittest.xslt"?>
+<testsuites xmlns="http://check.sourceforge.net/ns">
+  <datetime>2016-03-04 11:54:34</datetime>
+  <suite>
+    <title>List</title>
+    <test result="success">
+      <path>/Users/morgan/projects/c_family/lcthw/tests</path>
+      <fn>list_tests.c:51</fn>
+      <id>list_push_pop</id>
+      <iteration>0</iteration>
+      <duration>0.000032</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>/Users/morgan/projects/c_family/lcthw/tests</path>
+      <fn>list_tests.c:65</fn>
+      <id>list_unshift</id>
+      <iteration>0</iteration>
+      <duration>0.000020</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>/Users/morgan/projects/c_family/lcthw/tests</path>
+      <fn>list_tests.c:78</fn>
+      <id>list_remove</id>
+      <iteration>0</iteration>
+      <duration>0.000020</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>/Users/morgan/projects/c_family/lcthw/tests</path>
+      <fn>list_tests.c:95</fn>
+      <id>list_shift</id>
+      <iteration>0</iteration>
+      <duration>0.000021</duration>
+      <description>Core</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>/Users/morgan/projects/c_family/lcthw/tests</path>
+      <fn>list_tests.c:137</fn>
+      <id>list_bubble_sort</id>
+      <iteration>0</iteration>
+      <duration>0.000035</duration>
+      <description>Sort</description>
+      <message>Passed</message>
+    </test>
+    <test result="success">
+      <path>/Users/morgan/projects/c_family/lcthw/tests</path>
+      <fn>list_tests.c:151</fn>
+      <id>list_merge_sort</id>
+      <iteration>0</iteration>
+      <duration>0.000037</duration>
+      <description>Sort</description>
+      <message>Passed</message>
+    </test>
+  </suite>
+  <duration>0.004627</duration>
+</testsuites>
