@@ -4,4 +4,4 @@ $:.unshift(File.expand_path('../../lib', __FILE__))
 
 require 'jml_test_runner'
 
-JmlTestRunner::Runner.new(ARGV.first).run if $0 == __FILE__
+JmlTestRunner::Runner.new(File.expand_path(ARGV.first)).run if $0 == __FILE__
